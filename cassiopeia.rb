@@ -10,7 +10,6 @@ choice = false
 
 puts Hardware::clr_screen
 
-
 while choice != "0"
 	
   # Print menu
