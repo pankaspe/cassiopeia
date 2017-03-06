@@ -30,10 +30,10 @@ while choice != "0"
     when "5"
       puts Hardware::vga_info
     when "0"
-      puts "Alla prossima!".bold
+      puts "See you!".bold
       exit
     else
-      puts "Input non valido!".bg_magenta.black.underline+$/
+      puts "Invalid input!".bg_magenta.black.underline+$/
     end
 	
 end
