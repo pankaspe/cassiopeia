@@ -14,7 +14,7 @@ while choice != "0"
 	
   # Print menu
   puts "[1]OS info\t [2]Filesystem info\t [3]CPU info\t [4]RAM info\t [5]VGA info\t [0]Exit".bold
-  print "Seleziona un'opzione: "
+  print "Select an option: "
   choice = gets.chomp.to_s
 	
   # Case the choice var
